@@ -1,7 +1,7 @@
 {
 	"name": "@mmstudio/an000047",
 	"version": "1.0.0",
-	"description": "写cookie",
+	"description": "设置cookie",
 	"scripts": {
 		"test": "tsc && ava ./tests/*.js",
 		"dev": "tsc -w & ava --watch ./tests/*.js",
@@ -39,8 +39,11 @@
 		}
 	],
 	"license": "MIT",
-	"dependencies": {},
+	"dependencies": {
+		"cookie": "^0.4.1"
+	},
 	"devDependencies": {
+		"@types/cookie": "^0.4.0",
 		"@typescript-eslint/eslint-plugin": "latest",
 		"@typescript-eslint/parser": "latest",
 		"ava": "latest",
